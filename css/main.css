@@ -168,3 +168,9 @@ article#edu-col{
     border-radius: 80%;
     border: 2px solid #000000;
 }
+
+#github{
+    width: 250px;
+    height: auto;
+    float: left;
+}
