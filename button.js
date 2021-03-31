@@ -1,3 +1,3 @@
 function button(){
-    alert("Achoo!");
+    alert("Hello World!");
 }
