@@ -56,11 +56,11 @@ header li{
     padding: 0 20px 0 20px;
 }
 
-header #branding{
+header #menu{
     float: left;
 }
 
-header #branding h1{
+header #menu h1{
     margin: 0;
 }
 
@@ -174,3 +174,6 @@ article#edu-col{
     height: auto;
     float: left;
 }
+
+/* store */
+
