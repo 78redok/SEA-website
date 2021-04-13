@@ -212,3 +212,8 @@ th, td {
 thead, td, tbody, tr{
     border: 1px solid #000000;
 }
+
+#checkout {
+    padding: 8px;
+    margin: 25px 0;
+}
