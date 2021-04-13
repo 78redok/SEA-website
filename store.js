@@ -1,7 +1,7 @@
 const products = [
     {
-        name: 'USB',
-        price: 10000,
+        name: '1 Hour Of My Time',
+        price: 20,
     }
 ]
 

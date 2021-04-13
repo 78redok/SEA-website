@@ -7,7 +7,13 @@ body{
     background-color: #f4f4f4;
 }
 /*global*/
-.container{
+.container_global{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container_store {
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -177,3 +183,32 @@ article#edu-col{
 
 /* store */
 
+.col-12 {
+    font-weight: bold;
+}
+
+.table-responsive {
+    font-weight: lighter;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+thead tr{
+    background-color: #599cff;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+thead, td, tbody, tr{
+    border: 1px solid #000000;
+}
