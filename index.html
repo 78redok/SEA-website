@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard Ko | SEA Applicant</title>
+    <title>Richard Ko | Home</title>
     <link rel = "stylesheet" href = "./css/main.css">
-    <script src="button.js"></script>
+    <script src="button.js" async></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#hamburger').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
     <link rel="icon" href="https://uploads-ssl.webflow.com/5f7e22296031655fe1cf628f/5f9c658a3f64e938f5479a98_Hello%20World%20Logo-p-500.png">
 </head>
 <body>
     <header>
-       <div class = "container_global">
-           <div id= "menu">
-               <h1>
-                   <span class = "highlight">Richard</span> Ko
-               </h1>
-           </div>
            <nav>
+               <label class="logo">Richard Ko</label>
                <ul>
                    <li class = "current"><a href = "index.html">Home</a></li>
                    <li><a href = "about.html">About Me</a></li>
                    <li><a href = "education.html">Education</a></li>
                    <li><a href = "store.html">Store</a></li>
                </ul>
+               <label id="hamburger">
+                   <i class="fas fa-bars"></i>
+               </label>
            </nav>
-       </div> 
     </header>
 
     <section id = "showcase">

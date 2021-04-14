@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard Ko | SEA Applicant</title>
+    <title>Richard Ko | Education</title>
     <link rel = "stylesheet" href = "./css/main.css">
-    <script src="button.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#hamburger').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
     <link rel="icon" href="https://uploads-ssl.webflow.com/5f7e22296031655fe1cf628f/5f9c658a3f64e938f5479a98_Hello%20World%20Logo-p-500.png">
 </head>
 <body>
     <header>
-       <div class = "container_global">
-           <div id= "menu">
-               <h1>
-                   <span class = "highlight">Richard</span> Ko
-               </h1>
-           </div>
            <nav>
+               <label class="logo">Richard Ko</label>
                <ul>
                    <li><a href = "index.html">Home</a></li>
                    <li><a href = "about.html">About Me</a></li>
                    <li class = "current"><a href = "education.html">Education</a></li>
                    <li><a href = "store.html">Store</a></li>
                </ul>
+               <label id="hamburger">
+                   <i class="fas fa-bars"></i>
+               </label>
            </nav>
-       </div> 
     </header>
+
     <section id = "main">
-        <div class = "container_global">
+        <div class = "container_body">
             <article id="edu-col">
                 <h1 class= "page-title">Education</h1>
-                <ul id = "education">
+                <ul id = "education"><br>
                     <li>
-                        <h3>GPA: 4.0</h3>
+                        <h3>GPA: 4.0</h3><br>
                         <h3>Computer Science Courses Taken:</h3>
                         <p>CS55: Java<br>CS56: Adv. Java<br>CS52: C++<br>CS20A: C++ Data Structures<br>CS20B: Java Data Structures</p>
                     </li>
