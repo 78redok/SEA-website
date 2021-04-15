@@ -98,7 +98,7 @@ nav #hamburger{
     float: right;
     margin-right: 40px;
     cursor: pointer;
-    display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 1048px){
@@ -116,7 +116,8 @@ nav #hamburger{
 
 @media (max-width: 909px) {
     nav #hamburger{
-        display: block;
+        visibility: visible;
+        opacity: 1;
     }
     nav ul{
         position: fixed;
